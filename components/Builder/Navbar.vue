@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 // state
-const app = useAppConfig()
+// const app = useAppConfig()
 const navbar = ref(null)
 const showDrawer = useState<boolean>('navbar.showDrawer', () => false)
 const showOptions = useState<boolean>('navbar.showOptions', () => false)
@@ -88,7 +88,7 @@ const toggleOptions = (show?: boolean) => {
                 <IconSimpleIcons:nuxtdotjs
                   class="inline-block mr-2 text-lg text-primary-500"
                 />
-                {{ app.name }}
+                <!-- {{ app.name }} -->
               </span>
             </NuxtLink>
           </slot>

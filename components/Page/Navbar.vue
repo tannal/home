@@ -7,7 +7,7 @@ export interface IMenuItem {
 }
 
 const { t } = useLang()
-const app = useAppConfig()
+// const app = useAppConfig()
 const menus = computed((): IMenuItem[] => [
   {
     type: 'link',
@@ -33,7 +33,7 @@ const menus = computed((): IMenuItem[] => [
         class="text-white text-xs text-center py-1 px-4 lg:px-8 bg-primary-500 capitalize"
       >
         <span class="mr-1">
-          {{ $t('banners.welcome', { app_name: app.name }) }}
+          <!-- {{ $t('banners.welcome', { app_name: app.name }) }} -->
         </span>
         <Anchor
           class="underline font-bold"

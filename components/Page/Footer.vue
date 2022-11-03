@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import p from './../../package.json'
-const app = useAppConfig()
+// const app = useAppConfig()
 </script>
 
 <template>
@@ -10,10 +10,10 @@ const app = useAppConfig()
     >
       <div class="w-full py-4 text-center md:text-left">
         <div class="mb-1">
-          {{ app.name }}
+          <!-- {{ app.name }} -->
         </div>
         <div class="text-xs text-gray-600 dark:text-gray-400">
-          Copyright © 2022 <a :href="app.author.link">{{ app.author.name }}</a
+          <!-- Copyright © 2022 <a :href="app.author.link">{{ app.author.name }}</a -->
           >. All rights reserved. Made with <span class="text-red-500">❤</span>
           <div
             class="flex flex-col md:flex-row space-x-2 items-center md:float-right"
