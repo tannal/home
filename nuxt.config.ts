@@ -36,7 +36,7 @@ export default defineNuxtConfig({
     transpile: ['@headlessui/vue'],
   },
 
-  target:'static',
+  target: 'static',
 
   router: {
   },
@@ -110,7 +110,11 @@ export default defineNuxtConfig({
       mdc: true,
     },
     highlight: {
-      theme: 'github-dark',
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark'
+      },
+      preload: ['c'],
     },
   },
 })
